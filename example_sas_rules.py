@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn import datasets
 from sklearn.model_selection import train_test_split
-from tree_to_sas import *
+from tree_to_sas import get_rules
 
 
 # Example with iris dataset
